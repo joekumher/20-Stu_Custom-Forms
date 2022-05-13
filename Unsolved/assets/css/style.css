@@ -85,7 +85,8 @@ button {
   cursor: pointer;
 }
 
-/* What does this CSS rule do? */
+/* What does this CSS rule do?
+A: it changes the selector icon aka the drop down arrow image */
 select {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -112,12 +113,14 @@ select:hover, button:hover {
   box-shadow: 0 0 5px #999;
 }
 
-/* What does this pseudo-class mean? */
+/* What does this pseudo-class mean? 
+A: the right side border changes when clicked*/
 .text-input:focus {
   border-right-width: 5px;
 }
 
-/* What does this pseudo-class mean? */
+/* What does this pseudo-class mean? 
+A: when the placeholder is shown it makes the box dashed*/
 .text-input:placeholder-shown {
   border-style: dashed;
 }
@@ -136,13 +139,15 @@ select:hover, button:hover {
   margin-right: 2%;
 }
 
-/* What does this selector do? */
+/* What does this selector do? 
+A: italicises and greys the words*/
 .checkbox:checked + label {
   color: #999999;
   font-style: italic;
 }
 
-/* What does this selector do? */
+/* What does this selector do? 
+inserts text after the original text*/
 .checkbox:checked + label::after {
   margin-left: 10px;
   font-size: 90%;
